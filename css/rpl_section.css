@@ -1,0 +1,583 @@
+:root {
+    --main-color-3: #1f0404;
+    --main-color-4: #ffffff;
+    --main-color-1: #D1A730;
+    --main-color-2: #00335c;
+    --main-color-5: #e6e6e6;
+    --main-color-6: #1f8c95;
+    --fonts-1: "Montserrat", sans-serif !important;
+    --fonts-2: "Poppins", sans-serif !important;
+}
+
+.flex-container-2 {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.intro {
+    margin-top: -40px;
+}
+
+@media (min-width:1400px) {
+    .wa-header {
+        margin-bottom: 130px !important;
+    }
+}
+
+.flex-container2 {
+    margin-right: 50px;
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+.read-more {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.process h1 {
+    color: var(--main-color-2);
+    font-family: var(--fonts-1);
+}
+
+.read-more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--fonts-1);
+    color: var(--main-color-5);
+    background-color: var(--main-color-6);
+    border: 2px solid var(--main-color-6);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    white-space: nowrap;
+    min-width: 150px;
+}
+
+.read-more .icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: var(--main-color-5);
+    color: var(--main-color-6);
+    transform: scale(1.05);
+}
+
+.read-more:hover .icon {
+    transform: translateX(5px);
+    fill: var(--main-color-6);
+}
+
+.read-more .icon {
+    fill: var(--main-color-5);
+}
+
+.read-more:hover .icon {
+    fill: var(--main-color-6);
+}
+
+.read-more:active {
+    background-color: #145a63;
+    border-color: #145a63;
+}
+
+#rpl-certification {
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+#mprocess {
+    display: none;
+}
+
+#works-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 5vh 0;
+    margin: 0 auto;
+}
+
+.works-2 {
+    display: flex;
+    gap: 1.5vw;
+}
+
+.works-2 svg {
+    width: 5vw;
+    height: 8vh;
+    color: var(--main-color-2);
+}
+
+#works-container h1 {
+    text-align: left;
+    margin-left: 20px;
+    font-family: var(--fonts-1);
+    font-size: 2.7vw;
+    color: var(--main-color-2);
+}
+
+.works-svg-con {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.works-2 h2 {
+    font-family: var(--fonts-1);
+    font-size: 1.8vw;
+    color: var(--main-color-2);
+}
+
+.works-2 p {
+    font-family: var(--fonts-1);
+    font-size: 1vw;
+    color: #131111;
+}
+
+@media screen and (max-width: 768px) {
+    #works {
+        background-color: #e6e6e6;
+        margin: 0 auto;
+    }
+
+    #works-container {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+        padding: 10vh 0;
+        margin: 0 auto;
+    }
+
+    .works-2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 3vw;
+    }
+
+    .works-2 svg {
+        width: 8vw;
+        height: 7vh;
+        color: var(--main-color-2);
+    }
+
+    #works-container h1 {
+        margin: 7vh 0;
+        font-family: "Montserrat", sans-serif;
+        font-size: 11vw;
+        color: #242323;
+    }
+
+    .works-svg-con {
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #process {
+        display: none;
+    }
+
+    #mprocess {
+        font-family: "Montserrat", sans-serif;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    #our-flow {
+        /* display: grid; */
+        gap: 3vw;
+        margin: var(--main-margin);
+        width: 95%;
+        -ms-grid-columns: 1fr 3vw 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .works-2 h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 6vw;
+        color: var(--main-color-3);
+        padding-bottom: 3vh;
+    }
+
+    .works-2 p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 4vw;
+        font-weight: 100;
+        font-weight: 500;
+        line-height: 3vh;
+        letter-spacing: 1px;
+        color: #131111;
+    }
+
+    main {
+        margin-bottom: 3vh;
+    }
+
+    .flex-container-2 {
+        display: flex;
+        gap: 20px;
+        justify-content: right;
+        align-items: center;
+        margin-left: -30px;
+    }
+
+    .heading-our-services {
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 11vw !important;
+        color: #D1A730;
+    }
+}
+
+.heading-our-services {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 2.7vw;
+    color: #D1A730;
+}
+
+.st0 {
+    opacity: 0.1;
+}
+
+.st1 {
+    fill: #dadada;
+}
+
+.st2 {
+    fill: #c0c0c0;
+}
+
+.st3 {
+    fill: #1e1e1e;
+}
+
+.st4 {
+    fill: #ba3dfe;
+}
+
+.st5 {
+    fill: #00d5ff;
+}
+
+.st6 {
+    fill: #ff8c19;
+}
+
+.st7 {
+    fill: #a4a4a4;
+}
+
+.st8 {
+    fill: url(#SVGID_1_);
+}
+
+.st9 {
+    fill: #98113d;
+}
+
+.st10 {
+    fill: #8c8c8c;
+}
+
+.st11 {
+    fill: #d0d0d0;
+}
+
+.st12 {
+    fill: #e57917;
+}
+
+.st13 {
+    fill: #646464;
+}
+
+.st14 {
+    fill: #004ab5;
+}
+
+.st15 {
+    fill: #ff2b50;
+}
+
+.st16 {
+    fill: #ffc402;
+}
+
+.st17 {
+    fill: url(#SVGID_00000122689554700493170210000016546518385146251934_);
+}
+
+.st18 {
+    fill: none;
+}
+
+.st19 {
+    fill: url(#SVGID_00000063595559737349384160000004845562268834704275_);
+}
+
+.st20 {
+    fill: url(#SVGID_00000159439711878666003450000016798045751996917398_);
+}
+
+.st21 {
+    fill: url(#SVGID_00000083088237324212525360000002456416688852776586_);
+}
+
+.st22 {
+    fill: url(#SVGID_00000134214655894227316440000018164474720962281356_);
+}
+
+.st23 {
+    fill: url(#SVGID_00000011747661738138667370000008032508836218662802_);
+}
+
+.st24 {
+    fill: url(#SVGID_00000112592604790813018970000003570093963551751041_);
+}
+
+.st25 {
+    fill: url(#SVGID_00000165202264659732903350000004965404086742922668_);
+}
+
+.st26 {
+    fill: url(#SVGID_00000106836270964345597780000002403928135131365295_);
+}
+
+.st27 {
+    fill: url(#SVGID_00000044153146106476419100000016696569227395039142_);
+}
+
+.st28 {
+    fill: url(#SVGID_00000139258135518615907440000004851275590155156924_);
+}
+
+.st29 {
+    fill: #005500;
+}
+
+.st30 {
+    fill: #a73de5;
+}
+
+.st31 {
+    fill: #fe9643;
+}
+
+.st32 {
+    fill: #ffc600;
+}
+
+.st33 {
+    fill: url(#SVGID_00000036246000228028099870000002207021230111334819_);
+}
+
+.st34 {
+    fill: url(#SVGID_00000147189797005500410050000004931563589050696596_);
+}
+
+.st35 {
+    fill: url(#SVGID_00000018926730956187108450000010809717759864906913_);
+}
+
+.st36 {
+    fill: url(#SVGID_00000173155928576730747010000006932601044737845924_);
+}
+
+.st37 {
+    fill: url(#SVGID_00000132784988709770702100000016005059258496585892_);
+}
+
+.st38 {
+    fill: url(#SVGID_00000013894815230226493530000004076561744805577140_);
+}
+
+.st39 {
+    fill: url(#SVGID_00000157273178856091696540000017523196644376947892_);
+}
+
+.st40 {
+    fill: url(#SVGID_00000091017404744716250300000013784767385558355369_);
+}
+
+.st41 {
+    fill: #00eb00;
+}
+
+.st42 {
+    fill: url(#SVGID_00000016779617350705046900000002168507975116370857_);
+}
+
+.st43 {
+    fill: #9a35db;
+}
+
+.st44 {
+    fill: url(#SVGID_00000010994588643886896490000011537564875650253718_);
+}
+
+.st45 {
+    fill: url(#SVGID_00000032646342538108695030000011171061539739876278_);
+}
+
+.st46 {
+    fill: url(#SVGID_00000110464526693349648430000012353202586215659937_);
+}
+
+.st47 {
+    opacity: 0.3;
+    enable-background: new;
+}
+
+.st48 {
+    fill: url(#SVGID_00000066495770234938142480000014618849478627652738_);
+}
+
+.st49 {
+    fill: url(#SVGID_00000080167150919265275400000018102931315774487192_);
+}
+
+.st50 {
+    fill: url(#SVGID_00000024700375376308003930000002329647419061844143_);
+}
+
+.st51 {
+    opacity: 0.3;
+}
+
+.st52 {
+    fill: url(#SVGID_00000121253501623906608430000008737609121482661775_);
+}
+
+.st53 {
+    fill: url(#SVGID_00000070817519686066380050000017149363856282409107_);
+}
+
+.st54 {
+    fill: url(#SVGID_00000100353896175104384930000014375560668706834065_);
+}
+
+.st55 {
+    fill: url(#SVGID_00000181772270536229377040000003224058132714814635_);
+}
+
+.st56 {
+    fill: url(#SVGID_00000147214934068400423770000008561030308013619107_);
+}
+
+.st57 {
+    fill: url(#SVGID_00000052079765192788147690000013142544836785420706_);
+}
+
+.st58 {
+    fill: url(#SVGID_00000123411884342139650570000015230989394820420260_);
+}
+
+.st59 {
+    fill: url(#SVGID_00000083053254336646853740000000205610778602129542_);
+}
+
+.st60 {
+    fill: #e9e9e9;
+}
+
+.st61 {
+    opacity: 0.15;
+    enable-background: new;
+}
+
+.st62 {
+    fill: #843c32;
+}
+
+.st63 {
+    opacity: 0.1;
+    enable-background: new;
+}
+
+.st64 {
+    fill: #ff8538;
+}
+
+.st65 {
+    fill: url(#SVGID_00000087378529790320409010000008959671665125109124_);
+}
+
+.st66 {
+    fill: url(#SVGID_00000003080437942708989290000000425838082684310659_);
+}
+
+.st67 {
+    opacity: 0.3;
+    fill: #ba3dfe;
+    enable-background: new;
+}
+
+.st68 {
+    fill: #f5f5f5;
+}
+
+.st69 {
+    clip-path: url(#SVGID_00000025434999204961694430000010553285748858124190_);
+}
+
+.st70 {
+    fill: #c836d7;
+}
+
+.st71 {
+    fill: url(#SVGID_00000015356869465166102360000010005221953782034097_);
+}
+
+.st72 {
+    fill: url(#SVGID_00000085241567093939702810000014916877949808407219_);
+}
+
+.st73 {
+    opacity: 0.5;
+    fill: url(#SVGID_00000082336681762153862540000013610926577613877648_);
+    enable-background: new;
+}
+
+.st74 {
+    opacity: 0.5;
+    fill: url(#SVGID_00000080923856747028395820000014529820708485274796_);
+    enable-background: new;
+}
+
+.st75 {
+    fill: #e3e3e3;
+}
+
+.st76 {
+    fill: #6343dc;
+}
+
+.st77 {
+    fill: #de1250;
+}
+
+.st78 {
+    opacity: 0.3;
+    fill: #1e1e1e;
+    enable-background: new;
+}
+
+.st79 {
+    fill: url(#SVGID_00000155142312543470320410000000663788924094304399_);
+}

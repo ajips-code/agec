@@ -1,0 +1,79 @@
+/* Warna latar belakang */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Konten form */
+#unique-contact-section .container {
+    padding-top: 50px;
+}
+
+#unique-contact-section h2.unique-contact-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#unique-contact-section .unique-form-control {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#unique-contact-section .unique-form-control:focus {
+    border-color: #80bdff;
+    box-shadow: none;
+}
+
+#unique-contact-section .unique-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#unique-contact-section .unique-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Informasi kontak */
+.unique-contact-info-wrap-flex h2.contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.unique-contact-info-wrap-flex p.unique-contact-description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.unique-map-con {
+    text-align: center;
+}
+
+.unique-contact-info-wrap-flex-map {
+    margin: 0 auto;
+    /* Membuat peta berada di tengah */
+    overflow-y: scroll;
+    /* Aktifkan pengguliran vertikal jika diperlukan */
+    max-height: 400px;
+    /* Tentukan tinggi maksimum untuk pengguliran */
+}
+
+/* Pastikan pengguliran vertikal berfungsi dengan baik */
+.unique-contact-info-wrap-flex-map iframe {
+    width: 100%;
+    /* Atur lebar iframe agar sesuai dengan kontainer */
+}
+
+@media (max-width: 767px) {
+    .unique-contact-info-wrap-flex p.unique-contact-description {
+        font-size: 14px;
+    }
+}

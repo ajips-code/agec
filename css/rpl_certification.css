@@ -1,0 +1,729 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-color-3: #1f0404;
+    --main-color-4: #ffffff;
+    --main-color-1: #D1A730;
+    --main-color-2: #00335c;
+    --main-color-5: #e6e6e6;
+    --main-color-6: #1f8c95;
+    --fonts-1: "Montserrat", sans-serif !important;
+    --fonts-2: "Poppins", sans-serif !important;
+    --fonts-3: "Bell MT", sans-serif !important;
+}
+
+
+.main-content {
+    margin-top: 105px;
+    text-align: center;
+    padding: 70px 40px 100px 40px;
+    background-color: #00335c;
+}
+
+.hidden {
+    display: none;
+}
+
+.intro select {
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: -15px;
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 2rem;
+    border-color: #00335c;
+}
+
+
+.main-content h2 {
+    color: white;
+    font-family: var(--fonts-3);
+    font-size: 34px;
+    margin-bottom: 55px;
+}
+
+.main-content h3 {
+    color: white;
+    font-family: var(--fonts-3);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.intro p {
+    font-size: 1.7rem;
+    margin: 20px 0;
+    color: white;
+    padding: 80px;
+    font-family: var(--fonts-3);
+}
+
+.links a {
+    margin: 0 15px;
+    font-size: 1.1rem;
+    color: #3E4E50;
+    text-decoration: none;
+    border-bottom: 2px solid #0077B5;
+    padding-bottom: 2px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 1.7rem;
+    padding: 25px 35px;
+    background-color: #7bff00;
+    /* color: #fff; */
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    border: 1px solid #7bff00;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #7bff00;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+
+}
+
+
+.image-section {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: -300px;
+    position: relative;
+    /* z-index: -1; */
+}
+
+@media (min-width: 980px) and (max-width: 1400px) {
+    .image-section {
+        margin-top: -368px;
+        margin-right: -5px;
+    }
+
+    .main-content h2 {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 32px;
+        margin-top: -30px;
+    }
+
+
+    .intro p {
+        font-size: 1.7rem;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        color: white;
+        padding: 80px 250px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+}
+
+.person-image {
+    border-radius: 10px;
+    max-width: 250px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
+
+.caption {
+    background-color: white;
+    padding: 10px 120px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    text-align: center;
+}
+
+
+.chat-widget {
+    position: fixed;
+    bottom: 7px;
+    right: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-message {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+.chat-icon {
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+/* section proces line */
+.timeline-section {
+    padding: 60px 0;
+    font-family: "Open Sans", Sans-serif;
+}
+
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.timeline-item.active .timeline-content {
+    background-color: #f9f9f9;
+    font-family: "Open Sans", Sans-serif;
+}
+
+.timeline-content {
+    position: relative;
+    font-family: "Open Sans", Sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-family: "Open Sans", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+}
+
+.timeline-content p {
+    margin-bottom: 0;
+    color: #252526;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-family: "Open Sans", Sans-serif;
+}
+
+.title-higlight {
+    color: #0077B5;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 71px;
+    letter-spacing: -1.4px;
+}
+
+.timeline-section {
+    margin-top: 60px;
+}
+
+.timeline3 {
+    position: relative;
+    height: 785px;
+}
+
+.timeline3 .timeline-item-line {
+    position: relative;
+}
+
+.timeline3 .timeline-item-line .timeline-content {
+    position: relative;
+    padding-left: 70px;
+}
+
+.timeline3 .timeline-item-line .timeline-number {
+    position: relative;
+    margin-bottom: 160px;
+    margin-left: 70px;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0077B5;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* New CSS for connecting lines */
+.timeline3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    /* Width of the line */
+    height: 100%;
+    /* Height of the line */
+    background-color: #0077B5;
+    /* Color of the line */
+    z-index: -1;
+    /* Push the line behind the content */
+}
+
+.timeline3 .timeline-item-line {
+    padding-left: 20px;
+    /* Adjust the padding to make room for the line */
+}
+
+/* =============== CONTAINER ========================== */
+.skills-container {
+    display: flex;
+    background-color: #00335c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 80px;
+    text-align: center;
+    animation: slideIn 0.8s ease-in-out;
+}
+
+.skills-image-section {
+    flex: 1;
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.skills-image-section img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.skills-caption {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1.4s ease-in-out;
+}
+
+.skills-caption span {
+    margin-left: 5px;
+}
+
+.skills-content-section {
+    flex: 2;
+    padding: 40px;
+    color: #333;
+    text-align: center;
+    justify-content: center;
+}
+
+.skills-content-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.skills-content-section p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.skills-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-buttons a {
+    text-decoration: none;
+    background-color: #7bff00;
+    border: 1px solid #7bff00;
+    /* color: white; */
+    padding: 15px 25px;
+    border-radius: 3px;
+    margin-top: 60px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.skills-buttons a:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #7bff00;
+}
+
+
+/*============================ Media Query ============================*/
+@media only screen and (max-width: 768px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .navbar-collapse.show {
+        display: block;
+    }
+
+    .navbar-nav li {
+        font-size: 1.2rem;
+    }
+
+    .main-content h1 {
+        font-size: 2rem;
+    }
+
+    .main-content h3 {
+        font-size: 2rem;
+    }
+
+    .intro select {
+        margin-bottom: -195px;
+        margin-right: 10px;
+        padding: 15px;
+    }
+
+    .intro p {
+        margin-top: -40px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .cta-button {
+        font-size: 1.7rem;
+        padding: 18px 30px;
+    }
+
+    .intro select {
+        font-size: 1.7rem;
+    }
+
+    .form-control {
+        font-size: 1.7rem;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .cta-button {
+        font-size: 1.8rem;
+        padding: 10px 15px;
+    }
+
+    .intro {
+        margin-top: 40px;
+    }
+
+    .intro select {
+        font-size: 1.8rem;
+        margin-top: 40px;
+    }
+
+    .form-control {
+        font-size: 2rem;
+        padding: 18px;
+    }
+
+    .main-content {
+        margin-top: 110px;
+    }
+}
+
+
+
+
+/* Section */
+article {
+    --img-scale: 1.001;
+    --title-color: black;
+    --link-icon-translate: -20px;
+    --link-icon-opacity: 0;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+article a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+}
+
+/* basic article elements styling */
+article h2 {
+    margin: 0 0 18px 0;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    transition: color 0.3s ease-out;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+article img {
+    max-width: 100%;
+    transform-origin: center;
+    transform: scale(var(--img-scale));
+    transition: transform 0.4s ease-in-out;
+}
+
+.article-body {
+    padding: 24px;
+}
+
+article a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #28666e;
+}
+
+article a:focus {
+    outline: 1px dotted #28666e;
+}
+
+article a .icon {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    transform: translateX(var(--link-icon-translate));
+    opacity: var(--link-icon-opacity);
+    transition: all 0.3s;
+}
+
+/* using the has() relational pseudo selector to update our custom properties */
+article:has(:hover, :focus) {
+    --img-scale: 1.1;
+    --title-color: #28666e;
+    --link-icon-translate: 0;
+    --link-icon-opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+/************************ 
+  Generic layout (demo looks)
+  **************************/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 
+body {
+    margin: 0;
+    padding: 48px 0;
+    font-family: "Figtree", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    background-image: linear-gradient(45deg, #7c9885, #b5b682);
+    min-height: 100vh;
+} */
+
+.articles {
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 25px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+    article {
+        container: card/inline-size;
+    }
+
+    .article-body p {
+        display: none;
+    }
+}
+
+@container card (min-width: 380px) {
+    .article-wrapper {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: 16px;
+    }
+
+    .article-body {
+        padding-left: 0;
+    }
+
+    figure {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    figure img {
+        height: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+}
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* Age care image */
+.agecare-img {
+    margin: 0;
+    /* width: 350px; */
+    /* height: 195px;
+	aspect-ratio: 3/3;
+	object-position: center;
+    align-items: center; */
+}
+
+/* ================== Whatsapp Button  ================== */
+
+.whatsapp-rpl-container {
+    position: relative;
+    text-decoration: none;
+    z-index: -1;
+}
+
+/* .floating-whatsapp {
+	position: fixed;
+	bottom: 20px;
+	right: 15px;
+	z-index: 9999;
+	text-decoration: none;
+}
+
+.whatsapp-container {
+	position: relative;
+	text-decoration: none;
+} */
+
+@media (min-width:1200px) and (max-width:1399px) {
+    .whatsapp-rpl-icon {
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff;
+        color: #fff;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        position: relative;
+        margin-bottom: 10px;
+        z-index: 1;
+        background-image: url('../images/email.png');
+        /* Ensure the path is correct */
+        background-size: cover;
+        /* padding: 50px; */
+        /* margin: 10px; */
+        /* Adjust this to fit your needs */
+        background-repeat: inherit;
+    }
+
+    .floating-whatsapp-rpl {
+        position: fixed;
+        bottom: 50px;
+        right: 32px;
+        z-index: 9999;
+        text-decoration: none;
+        background: '../images/email.png';
+
+    }
+    
+    .main-content {
+        margin-top: 200px;
+        text-align: center;
+        padding: 70px 40px 100px 40px;
+        background-color: #00335c;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .whatsapp-rpl-icon {
+        width: 50px;
+        height: 50px;
+        background-color: #fcfffd;
+        color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        position: relative;
+        margin-bottom: 8px;
+        z-index: 9998;
+        background-image: url('../images/email.png');
+        /* Ensure the path is correct */
+        background-size: cover;
+        /* Adjust this to fit your needs */
+        background-repeat: inherit;
+    }
+
+    .floating-whatsapp-rpl {
+        position: fixed;
+        bottom: 70px;
+        right: 15px;
+        z-index: 9999;
+        text-decoration: none;
+    }
+}

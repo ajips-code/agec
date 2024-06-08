@@ -1,0 +1,153 @@
+/* For tablets and smaller laptops */
+@media (max-width: 768px) {
+  :root {
+    --main-color-3: #1f0404;
+    --main-color-4: #ffffff;
+    --main-color-1: #D1A730;
+    --main-color-2: #00335c;
+    --main-color-5: #e6e6e6;
+    --main-color-6: #1f8c95;
+    --fonts-1: "Montserrat", sans-serif !important;
+    --fonts-2: "Poppins", sans-serif !important;
+  }
+
+
+
+  #colorlib-hero {
+    position: relative;
+    width: 100%;
+  }
+
+  .cslider .slides li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .slider-text {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .slider-text-inner {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  .slider-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .slider-text h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+  }
+
+  .btn-learn-eligible {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .wa-header {
+    margin-top: 10px;
+  }
+
+  .wa-header a {
+    background-color: #4F6367;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .img-hero {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .img-hero img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .slider-text h1 {
+    font-size: 2rem;
+  }
+
+  .slider-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .btn-learn-eligible {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .wa-header a {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .img-hero {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .hero-h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: 1.3px;
+    margin-left: 20px;
+  }
+
+  #page {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  #ctopul li a:hover {
+    font-size: 0.9em;
+    color: #00335c;
+  }
+
+  #colorlib-footer {
+    margin-top: 10px;
+    padding-top: 5em;
+    background: #D1D3D4;
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
+
+  .img-footer img {
+    width: 350px;
+    margin: 0;
+    height: 125px;
+  }
+}

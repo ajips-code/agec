@@ -1,0 +1,12 @@
+@media (min-width:769px) and (max-width: 991px) {
+    :root {
+        --main-color-3: #1f0404;
+        --main-color-4: #ffffff;
+        --main-color-1: #D1A730;
+        --main-color-2: #00335c;
+        --main-color-5: #e6e6e6;
+        --main-color-6: #1f8c95;
+        --fonts-1: "Montserrat", sans-serif !important;
+        --fonts-2: "Poppins", sans-serif !important;
+    }
+}

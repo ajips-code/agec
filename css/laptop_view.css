@@ -1,0 +1,208 @@
+@media (min-width: 992px) and (max-width: 1399px) {
+    :root {
+        --main-color-3: #1f0404;
+        --main-color-4: #ffffff;
+        --main-color-1: #D1A730;
+        --main-color-2: #00335c;
+        --main-color-5: #e6e6e6;
+        --main-color-6: #1f8c95;
+        --fonts-1: "Montserrat", sans-serif !important;
+        --fonts-2: "Poppins", sans-serif !important;
+    }
+
+    .social-icons-con-home {
+        margin-left: 0px !important;
+    }
+
+    #ctopul-about {
+        margin-top: -2.5em;
+        margin-right: -33px;
+    }
+
+    #ctopul {
+        margin-top: -2.5em;
+        margin-right: 40px;
+    }
+
+    #ctopul-home {
+        margin-top: -2.8em;
+        /* margin-right: -230px; */
+        padding-right: 10px;
+        /* margin-left: 40px; */
+        margin-right: -40px;
+    }
+
+    .custom-number-home a {
+        margin-right: -90px !important;
+        margin-top: -10px;
+    }
+
+    .c-logo {
+        height: 3em;
+        width: 8.89m;
+        margin-top: 1px;
+        margin-bottom: 0.2em;
+        margin-left: 0.9em;
+    }
+
+    .con-header-ul {
+        margin-right: -130px;
+        margin-left: 270px;
+        margin-top: 90px;
+    }
+
+    .con-header-ul-home {
+        margin-left: -32px;
+        margin-top: 90px;
+    }
+
+
+    .floating-whatsapp {
+        position: fixed;
+        bottom: 5px;
+        right: 15px;
+        z-index: 9999;
+        text-decoration: none;
+    }
+
+    .whatsapp-icon {
+        width: 85px;
+        height: 85px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        position: relative;
+        margin-bottom: 10px;
+        z-index: 9999;
+        background-image: url('../images/wa.png');
+        /* Ensure the path is correct */
+        background-size: cover;
+        background-repeat: inherit;
+    }
+
+    .whatsapp2-icon {
+        width: 55px;
+        height: 55px;
+        background-color: #ffffff;
+        color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        position: relative;
+        margin-bottom: 5px;
+        z-index: 1;
+        background-image: url('../images/email.png');
+        /* Ensure the path is correct */
+        background-size: cover;
+        background-repeat: inherit;
+    }
+
+    .floating-whatsapp2 {
+        position: fixed;
+        bottom: 80px;
+        right: 16px;
+        z-index: 9999;
+        text-decoration: none;
+        background: '../images/email.png';
+
+    }
+
+    .ctop-menu {
+        padding: 0px 10px;
+        background-color: transparent !important;
+        position: relative;
+        z-index: 999 !important;
+    }
+
+    .cslider {
+        margin-top: -5px !important;
+    }
+
+    .cbanners {
+        /* margin-top: 175.5px */
+        overflow: hidden;
+    }
+
+    #custom-logo {
+        margin-left: -50px;
+    }
+
+    #colorlib-footer {
+        padding-left: 120px !important;
+    }
+
+    #colorlib-hero .flexslider .slider-text>.slider-text-inner {
+        display: table-cell;
+        vertical-align: middle;
+        height: 600px;
+        /* padding: 7.1em; */
+    }
+
+    #colorlib-hero .flexslider .slider-text>.slider-text-inner h1 {
+        margin-bottom: 80px;
+        margin-top: -140px;
+        font-size: 36px;
+        font-weight: 300;
+        font-family: 'Bell MT';
+        opacity: 1;
+        margin-right: -110px;
+        text-align: right;
+    }
+
+    .bolder-trusted {
+        color: #7bff00;
+        font-weight: 200 !important;
+        border: 2px #000;
+    }
+
+    #colorlib-hero .flexslider .slider-text>.slider-text-inner h2 {
+        font-family: "sans-serif" !important;
+        /* font-size: 26px; */
+        font-size: 3rem;
+        line-height: 1.5;
+        margin-top: 80px !important;
+        font-weight: 100;
+        color: white;
+        text-transform: capitalize;
+    }
+
+    #colorlib-hero .flexslider .slider-text>.slider-text-inner h2 a {
+        color: #FF0000;
+    }
+
+    .custom-service-card-all {
+        background-color: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        border-radius: 10px;
+        padding: 20px;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        flex: 1;
+    }
+
+    .social-icons-con {
+        margin-left: -80px !important;
+    }
+
+    .container-service-page {
+        width: 1200px !important;
+    }
+
+    .customcontainer {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
